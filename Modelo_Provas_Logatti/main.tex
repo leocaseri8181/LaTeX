@@ -1,0 +1,191 @@
+\documentclass[11pt]{article}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage[version=3]{mhchem}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault]{quattrocento}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{blindtext}
+\usepackage{lineno}
+\usepackage{lipsum}
+\usepackage{lastpage}
+\titleformat{\section}[frame]
+{\filright \normalfont\fontsize{14}{15}}{\thesection}{1em}{}
+\setlength{\columnsep}{0.5cm}
+%\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{black}}
+\usepackage{fancyhdr}
+\fancyhf{}
+%\rfoot{\thepage \hspace{1pt}/\pageref{LastPage}}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage[left=0.5in,right=0.5in,top=0.5in,bottom=0.5in,paperwidth=7.5in,paperheight=11.12in]{geometry}
+\usepackage[a4,center,noinfo]{crop}
+\pagestyle{fancy}
+\lhead{Avaliação de Química - 1EM - 14/ago/2019}
+\rhead{Prof. João Henrique}
+\cfoot{Página \thepage\ de \pageref{LastPage}}
+
+\setlength{\droptitle}{-4em}     % Eliminate the default vertical space
+\addtolength{\droptitle}{-4pt}   % Only a guess. Use this for adjustment
+
+
+%\setcounter{section}{25}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt} 
+\renewcommand{\thesection}{Questão \arabic{section} }
+
+%\title{Prova Cognitiva Integrada 1 - Módulo 6 - 2019/S1 }
+\title{\vspace{-5ex}}
+
+\date{{\vspace{-5ex}}}
+\preauthor{}
+\postauthor{}
+\author{}
+
+\makeatletter
+\let\ps@mystyle\ps@plain % Copy the plain style to mystyle
+\patchcmd{\ps@mystyle}{\thepage}{Página\ \thepage\ de\ \pageref{LastPage}}{}{} % replace number by desired string
+\makeatother
+\pagestyle{mystyle}
+
+%######################
+\begin{document}
+%######################
+\maketitle\thispagestyle{mystyle}
+%\maketitle % habilita a exibição do título do documento
+%\thispagestyle{empty} % Limpa definições de estilo e usa aquelas do pacote fancy
+
+\begin{figure}[hbt]
+	%\includegraphics[scale=0.5]{logatti.jpg}
+	%\caption{}
+\end{figure}
+
+\begin{center}\textbf{Avaliação de Sistemas Distribuídos - Prof. João Henrique - 27/jun/2019}
+\end{center}
+
+\begin{tabularx}{468pt}{|X|X|c|}
+\hline
+\textbf{Nome} & \textbf{Curso} & \textbf{Código}\\
+	\hline
+	& & \\   
+	\hline
+\end{tabularx}
+
+\section{Apresente uma diferenciação rápida entre os conceitos programa e "processo".}
+
+\section{Usando no máximo 8 linhas de texto, descreva os três estados possíveis para um processo na memória do computador.}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Um conceito de grande importância em Sistemas Operacionais é conhecido como "Região Crítica". Explique esse conceito.}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Caso não seja evitada a chamada "condição de disputa", pode ocorrer um problema indesejável envolvendo dois usuários que tentam imprimir um arquivo em uma impressora, mediante o uso de um spool (simultaneous peripheral operations on-line). Descreva esse problema.}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Explique o conceito de "thread" usando um editor de textos comercial, como o Microsoft Word.}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{As expressões "fragmentação interna" e "fragmentação externa" estão relacionadas com o gerenciamento de memória. Diferencie os dois termos.}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Como os termos "página" e "quadro" estão relacionados?}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Um sistema de arquivos com suporte a journaling pode ser muito resistente a desligamento indevido do sistema operacional. Como isso ocorre?}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Um sistema de arquivo muito usado em distribuições Linux é conhecido como "ext4" e apresenta a possibilidade de restingir o acesso a um dado recurso (arquivo ou diretório) de forma muito granular. Relacione essa informação com a codificação "rwx" e números como "750".}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+\section{Defina, em detalhes, o funcionamento dos sistemas RAID 0, 1 e 5}
+\begin{linenumbers}
+\resetlinenumber
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+\end{linenumbers}
+
+%###############################################################################
+% Final do documento
+\end{document}
+%####################
