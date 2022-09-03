@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to writeLaTeX --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give 
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Todo notes - example from http://www.texample.net/tikz/examples/todo-notes/
+% Author: Henrik Skov Midtiby
+% Source: http://midtiby.blogspot.com/2007/09/todo-notes-in-latex.html
+%         http://midtiby.blogspot.com/2008/05/updated-todonotes-package.html
+%         http://midtiby.blogspot.com/2008/07/todonotes-version-2008-07-28.html
+% Uses the remember picture feature
+
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{verbatim}
+
+\title{Coisinha super interessante}
+
+\begin{document}
+
+\maketitle
+
+\listoftodos
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla
+\todo{Primeira marcação no texto. Entendi o funcionamento.}%
+urna. Maecenas interdum nunc in augue. Mauris quis massa in ante
+tincidunt mollis. Proin imperdiet. Donec porttitor pede id est. Sed
+in ante. Integer id arcu. Nam lectus nisl, posuere sit amet,
+imperdiet ut, tristique ac, lorem. In erat. In commodo enim.
+
+\todo[size=\small, color=green!40]{A note with a small fontsize.}%
+platea dictumst. In quam nibh, facilisis et, laoreet non, facilisis
+tempus, justo. Class aptent taciti sociosqu ad litora torquent per
+conubia nostra, per inceptos himenaeos.
+
+%Donec nulla lectus, faucibus sit amet, auctor non, consectetuer
+%quis, pede. Nullam dictum. Nullam suscipit, ligula in scelerisque
+%\todo[noline]{A note with no line back to the text.}%
+
+posuere, sapien purus rutrum magna, vitae pharetra leo quam vel
+tortor. Donec eleifend condimentum sapien. Etiam sed orci. Aliquam
+%\todo[inline, color=red!50]{Inline todonotes.}%
+tempor. Pellentesque egestas tortor id eros. Donec mauris justo,
+commodo id, pellentesque id, eleifend non, mi. Duis venenatis
+sagittis metus. Donec tempus metus id lacus. Praesent vel diam.
+Morbi nec ante. Vestibulum varius felis ac lacus. Nulla vitae neque
+
+\todo[inline, color=green!40]{A note with no line back to the text.}%
+in nibh bibendum volutpat. Quisque accumsan diam. Aenean ultricies
+nisl ac lacus. Aliquam posuere. Aenean venenatis tortor in felis.
+
+\end{document}
